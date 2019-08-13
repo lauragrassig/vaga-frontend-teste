@@ -1,50 +1,68 @@
-# Teste de Frontend
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Olá Dev!  Tudo bem?
+## Available Scripts
 
-Nós estamos sempre em busca de profissionais interessantes e interessados, com boa capacidade de aprendizado, adaptação e principalmente bom senso!
+In the project directory, you can run:
 
-Este teste tem como objetivo avaliar e desafiar você. Não é obrigatório realizá-lo completamente, queremos apenas reconhecer seu esforço e potencial para aprender, se adaptar e tomar decisões.
+### `npm start`
 
-Vamos ao teste!
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Desafio Pokémon
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-Sua missão é criar uma landing page para buscar, listar e detalhar pokémons, usando a API Pokeapi.co.
+### `npm test`
 
-O layout inteiro é livre, mas a lista deverá conter no mínimo o nome do pokémon e a sua respectiva imagem.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Sobre a busca, ela poderá ser feita de 3 formas: digitando o nome do pokémon, selecionando um ou mais tipos específicos ou listando todos de uma vez (paginação é sempre bem-vinda!).
+### `npm run build`
 
-Seria interessante ordenar nossa lista também e pensamos em pelo menos dois tipos: por número do Pokémon (padrão) ou por nome (ordem alfabética). Fique à vontade para fazer mais alguma.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Mas nossa busca não seria muito útil só com nome e foto de cada Pokémon. Então sugerimos que, ao clicar em um item, abra um modal, com mais detalhes e características dele. Inclusive você pode decidir quais informações seriam mais úteis para nós.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-## Consigo fazer?
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Consegue sim! Só precisa saber (ou aprender agora) um pouco sobre as seguintes tecnologias:
-- HTML
-- CSS 
-- Javascript
-- Git
-- Consumo de APIs Rest
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## Regras
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Para o desafio ficar mais interessante, decidimos criar umas regras básicas:
-- No layout, você utilizar algum framework CSS (ex: Bootstrap, MaterializeCSS, Bulma...)
-- Na parte de JS, deve utilizar algum framework (ex: VueJS, ReactJS, Angular...tente não usar jQuery), lembrando que VueJS é diferencial, pois utilizamos aqui na Red
-- Opcional: usar algum automatizador ou ferramenta de build (ex: Webpack, Grunt, Gulp...)
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Por onde começo?
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Primeiramente, você pode fazer um fork desse repositório aqui, para sua conta do Github, depois disso crie uma branch nova com o seu nome (ex: nome_sobrenome), para podermos indentificá-lo.
+## Learn More
 
-Após terminar o desafio, você pode solicitar um pull request para a branch master do nosso repositório. Vamos receber e fazer a avaliação de todos.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Só isso?
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Só! Mas se estiver motivado, tente preparar o projeto para ser executado e testado de maneira prática, usando alguma ferramenta que facilite isso (ex: npm, yarn, docker, etc...). 
+### Code Splitting
 
-Se preferir, pode publicá-lo em algum servidor de sites estáticos (ex: Firebase, Netlify...), esses exemplos são gratuitos, mas você pode usar um Cloud próprio também (ex: AWS, Digital Ocean, Linode...).
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
